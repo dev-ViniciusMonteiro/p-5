@@ -1,0 +1,26 @@
+.tabs-container {
+  width: 100%;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 32px;
+}
+
+.tabs {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 8px;
+  float: left;
+}
+
+.tabs a {
+  font-size: 14px;
+  padding: 8px 0;
+  text-decoration: none;
+  color: #374151;
+  cursor: pointer;
+}
+
+.tabs a.active {
+  border-bottom: 2px solid #3B82F6;
+  color: #1D4ED8;
+  font-weight: 600;
+}

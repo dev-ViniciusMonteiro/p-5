@@ -1,0 +1,57 @@
+.session-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px #E5E7EB;
+}
+
+.session-table th, 
+.session-table td {
+  padding: 16px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.session-table thead {
+  background-color: #F3F4F6;
+  color: #6B7280;
+}
+
+.session-table tbody tr:not(:last-child) {
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.badge {
+  background-color: #E5EDFD;
+  color: #1F2937;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.icon-button {
+  background: none !important;
+  border: none !important;
+  cursor: pointer;
+  padding: 4px;
+  font-size: 16px;
+  color: #374151;
+}
+
+.no-sessions {
+  background-color: white;
+  padding: 32px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px #E5E7EB;
+  color: #6B7280;
+  font-size: 16px;
+}

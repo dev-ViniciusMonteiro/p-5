@@ -1,0 +1,33 @@
+.form-field {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #374151;
+}
+
+.blue-input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid rgba(209, 219, 232, 1);
+  border-radius: 8px;
+  background-color: #f9fafb;
+  box-sizing: border-box;
+}
+
+textarea.blue-input {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.helper-text {
+  font-size: 12px;
+  color: #6B7280;
+  display: block;
+  margin-top: 4px;
+}

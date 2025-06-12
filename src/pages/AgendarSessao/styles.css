@@ -1,0 +1,99 @@
+.agendar-sessao-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.content-area {
+  flex: 1;
+  padding-top: 80px;
+  padding-bottom: 2rem;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.subtext {
+  color: #6783a9;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 4px;
+  margin-top: 16px;
+}
+
+label .required {
+  color: red;
+  margin-left: 4px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #e0e7ef;
+  border-radius: 8px;
+  background-color: #f7fbff;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #60a5fa;
+  background-color: #fff;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.btn-cancel, .btn-save {
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-cancel {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.btn-save {
+  background-color: #3B82F6;
+  color: white;
+}

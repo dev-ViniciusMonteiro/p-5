@@ -1,0 +1,36 @@
+.custom-button {
+  width: 450px;
+  max-width: 450px;
+  min-width: 84px;
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: rgba(66, 150, 235, 1);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-button:hover:not(:disabled) {
+  background-color: rgba(66, 150, 235, 0.9);
+}
+
+.custom-button:disabled {
+  background-color: rgba(173, 204, 235, 1);
+  cursor: not-allowed;
+}
+
+@media (max-width: 480px) {
+  .custom-button {
+    width: 100%;
+    max-width: 100%;
+  }
+}

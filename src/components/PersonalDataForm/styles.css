@@ -1,0 +1,18 @@
+.form-section-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 8px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: auto;
+}

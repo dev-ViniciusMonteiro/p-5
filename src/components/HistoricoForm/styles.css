@@ -1,0 +1,80 @@
+.historico-section {
+  margin-bottom: 24px;
+}
+
+.historico-section h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #4b5563;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 8px;
+}
+
+.sessoes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sessao-card {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sessao-header {
+  background-color: #f3f4f6;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sessao-data {
+  font-weight: 500;
+  color: #374151;
+}
+
+.sessao-tipo {
+  background-color: #e0e7ff;
+  color: #4f46e5;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.sessao-body {
+  padding: 16px;
+}
+
+.sessao-info {
+  margin-bottom: 12px;
+}
+
+.sessao-info:last-child {
+  margin-bottom: 0;
+}
+
+.info-label {
+  font-weight: 500;
+  color: #4b5563;
+  margin-right: 8px;
+}
+
+.sessao-info p {
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: #1f2937;
+  white-space: pre-line;
+}
+
+.no-data {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.loading-message {
+  color: #6b7280;
+}

@@ -1,0 +1,29 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 80px 0 40px 0; /* Ajustado para a altura da topbar (64px) + espaço extra */
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.link-sessoes {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #3B82F6;
+  text-decoration: none;
+}
+
+.link-sessoes:hover {
+  text-decoration: underline;
+}

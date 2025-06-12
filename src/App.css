@@ -1,0 +1,24 @@
+/* App container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Estilo global para ajustar conteúdo abaixo do header fixo */
+.content-area {
+  padding-top: 80px !important; /* Ajustado para a altura da topbar (64px) + espaço extra */
+}
+
+/* Estilos para páginas com layout de dashboard */
+.page-wrapper {
+  padding-top: 64px; /* Altura exata da topbar */
+}
+
+/* Estilo global para containers */
+.container {
+  width: 80% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: none !important;
+}

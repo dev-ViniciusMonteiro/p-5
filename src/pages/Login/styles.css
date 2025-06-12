@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Removido o estilo da topbar pois agora usamos o componente TopBar */
+
+.container {
+  max-width: 520px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 450px;
+  max-width: 100%;
+  white-space: normal;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  text-align: center;
+  margin: 10px auto;
+  width: 450px;
+  max-width: 100%;
+}
+
+.forgot {
+  font-size: 13px;
+  color: #306ecf;
+  text-align: left;
+  margin: 10px auto;
+  cursor: pointer;
+  width: 450px;
+  height: 21px;
+  align-self: center;
+}
+
+button {
+  width: 100%;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+}
+
+button:disabled {
+  background-color: #a0c1f7;
+  cursor: not-allowed;
+}
+
+.footer {
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+.success-message {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.back-link {
+  font-size: 13px;
+  color: #306ecf;
+  text-align: center;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 85%;
+    padding: 15px;
+  }
+  
+  h1 {
+    font-size: 16px;
+  }
+  
+  .forgot {
+    width: 100%;
+  }
+}
